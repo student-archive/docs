@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ru.zgz.star.backend"},{"l":"ru.zgz.star.backend.models"},{"l":"ru.zgz.star.backend.repository"},{"l":"ru.zgz.star.backend.routers"},{"l":"ru.zgz.star.backend.routes"},{"l":"ru.zgz.star.backend.util"}];updateSearchResults();
