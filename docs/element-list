@@ -1,6 +1,6 @@
 ru.zgz.star.backend
+ru.zgz.star.backend.daos
 ru.zgz.star.backend.models
-ru.zgz.star.backend.repository
 ru.zgz.star.backend.routers
 ru.zgz.star.backend.routes
 ru.zgz.star.backend.util
