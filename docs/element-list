@@ -1,5 +1,6 @@
 ru.zgz.star.backend
 ru.zgz.star.backend.daos
+ru.zgz.star.backend.exceptions.http
 ru.zgz.star.backend.models
 ru.zgz.star.backend.responses
 ru.zgz.star.backend.routers

@@ -110,6 +110,12 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">Finds all classes in a package</div>
 </div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#mergeObjects(java.lang.Object,java.lang.Object)" class="member-name-link">mergeObjects</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;one,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;another)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">Merges two objects into new one.</div>
+</div>
 </div>
 </div>
 </div>
@@ -154,6 +160,22 @@ loadScripts(document, 'script');</script>
 <dd>Set of classes</dd>
 <dt>Throws:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/IOException.html" title="class or interface in java.io" class="external-link">IOException</a></code> - if package was not found</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="mergeObjects(java.lang.Object,java.lang.Object)">
+<h3>mergeObjects</h3>
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span>&nbsp;<span class="element-name">mergeObjects</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;one,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;another)</span></div>
+<div class="block">Merges two objects into new one.
+ Iterates through all fields of the first object and, if null takes value from the second</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>one</code> - first object</dd>
+<dd><code>another</code> - second object</dd>
+<dt>Returns:</dt>
+<dd>new object</dd>
 </dl>
 </section>
 </li>

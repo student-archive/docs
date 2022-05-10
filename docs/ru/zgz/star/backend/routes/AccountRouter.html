@@ -77,6 +77,7 @@ loadScripts(document, 'script');</script>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">AccountRouter</span>
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>
+<div class="block">Router, which handles requests to /account/:id.</div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -91,10 +92,14 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-last">Description</div>
 <div class="col-first even-row-color"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second even-row-color"><code><a href="#BASE_URL" class="member-name-link">BASE_URL</a></code></div>
-<div class="col-last even-row-color">&nbsp;</div>
+<div class="col-last even-row-color">
+<div class="block">Base path for all requests, which this router handles.</div>
+</div>
 <div class="col-first odd-row-color"><code>static org.slf4j.Logger</code></div>
 <div class="col-second odd-row-color"><code><a href="#logger" class="member-name-link">logger</a></code></div>
-<div class="col-last odd-row-color">&nbsp;</div>
+<div class="col-last odd-row-color">
+<div class="block">Logger for this class.</div>
+</div>
 </div>
 </section>
 </li>
@@ -125,15 +130,27 @@ loadScripts(document, 'script');</script>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#deleteExactAccount(spark.Request,spark.Response)" class="member-name-link">deleteExactAccount</a><wbr>(spark.Request&nbsp;request,
  spark.Response&nbsp;response)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">Handles DELETE request to /account/:id.</div>
+</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#getExactAccount(spark.Request,spark.Response)" class="member-name-link">getExactAccount</a><wbr>(spark.Request&nbsp;request,
  spark.Response&nbsp;response)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">Handles GET request to /account/:id.</div>
+</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#patchExactAccount(spark.Request,spark.Response)" class="member-name-link">patchExactAccount</a><wbr>(spark.Request&nbsp;request,
  spark.Response&nbsp;response)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">Handles PATCH request to /account/:id.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#put(spark.Request,spark.Response)" class="member-name-link">put</a><wbr>(spark.Request&nbsp;request,
+ spark.Response&nbsp;response)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">Handles PUT request to /account/:id.</div>
+</div>
 </div>
 </div>
 </div>
@@ -155,12 +172,14 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="BASE_URL">
 <h3>BASE_URL</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BASE_URL</span></div>
+<div class="block">Base path for all requests, which this router handles.</div>
 </section>
 </li>
 <li>
 <section class="detail" id="logger">
 <h3>logger</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">org.slf4j.Logger</span>&nbsp;<span class="element-name">logger</span></div>
+<div class="block">Logger for this class.</div>
 </section>
 </li>
 </ul>
@@ -190,6 +209,14 @@ loadScripts(document, 'script');</script>
 <h3>getExactAccount</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getExactAccount</span><wbr><span class="parameters">(spark.Request&nbsp;request,
  spark.Response&nbsp;response)</span></div>
+<div class="block">Handles GET request to /account/:id.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>request</code> - request object</dd>
+<dd><code>response</code> - response object</dd>
+<dt>Returns:</dt>
+<dd>JSON representation of exact account</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -197,6 +224,14 @@ loadScripts(document, 'script');</script>
 <h3>deleteExactAccount</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">deleteExactAccount</span><wbr><span class="parameters">(spark.Request&nbsp;request,
  spark.Response&nbsp;response)</span></div>
+<div class="block">Handles DELETE request to /account/:id.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>request</code> - request object</dd>
+<dd><code>response</code> - response object</dd>
+<dt>Returns:</dt>
+<dd>JSON representation of id of deleted account</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -204,6 +239,29 @@ loadScripts(document, 'script');</script>
 <h3>patchExactAccount</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">patchExactAccount</span><wbr><span class="parameters">(spark.Request&nbsp;request,
  spark.Response&nbsp;response)</span></div>
+<div class="block">Handles PATCH request to /account/:id.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>request</code> - request object</dd>
+<dd><code>response</code> - response object</dd>
+<dt>Returns:</dt>
+<dd>JSON representation of updated account</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="put(spark.Request,spark.Response)">
+<h3>put</h3>
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">put</span><wbr><span class="parameters">(spark.Request&nbsp;request,
+ spark.Response&nbsp;response)</span></div>
+<div class="block">Handles PUT request to /account/:id.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>request</code> - request object</dd>
+<dd><code>response</code> - response object</dd>
+<dt>Returns:</dt>
+<dd>JSON representation of 405 error</dd>
+</dl>
 </section>
 </li>
 </ul>
