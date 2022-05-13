@@ -93,8 +93,8 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-last">Description</div>
 <div class="col-constructor-name even-row-color"><code><a href="#%3Cinit%3E()" class="member-name-link">Question</a>()</code></div>
 <div class="col-last even-row-color">&nbsp;</div>
-<div class="col-constructor-name odd-row-color"><code><a href="#%3Cinit%3E(java.lang.String,java.util.List)" class="member-name-link">Question</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;questionText,
- <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizVariant.html" title="class in ru.zgz.star.backend.models">QuizVariant</a>&gt;&nbsp;variants)</code></div>
+<div class="col-constructor-name odd-row-color"><code><a href="#%3Cinit%3E(java.lang.String,java.util.UUID)" class="member-name-link">Question</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;questionText,
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;quiz)</code></div>
 <div class="col-last odd-row-color">&nbsp;</div>
 </div>
 </section>
@@ -110,47 +110,51 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getId()" class="member-name-link">getId</a>()</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getCorrectAnswersAmount()" class="member-name-link">getCorrectAnswersAmount</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Returns correct answers amount.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getId()" class="member-name-link">getId</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Returns ID</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getQuestionText()" class="member-name-link">getQuestionText</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getQuestionText()" class="member-name-link">getQuestionText</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Returns text of question</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Quiz.html" title="class in ru.zgz.star.backend.models">Quiz</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getQuiz()" class="member-name-link">getQuiz</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizHistory.html" title="class in ru.zgz.star.backend.models">QuizHistory</a>&gt;</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getQuizHistories()" class="member-name-link">getQuizHistories</a>()</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getQuiz()" class="member-name-link">getQuiz</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizVariant.html" title="class in ru.zgz.star.backend.models">QuizVariant</a>&gt;</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getVariants()" class="member-name-link">getVariants</a>()</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getTotalAnswersAmount()" class="member-name-link">getTotalAnswersAmount</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Returns variants of question</div>
+<div class="block">Returns total answers amount.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setId(java.util.UUID)" class="member-name-link">setId</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;id)</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setCorrectAnswersAmount(java.lang.Integer)" class="member-name-link">setCorrectAnswersAmount</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&nbsp;correctAnswersAmount)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Updates last correct answer amount.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setId(java.util.UUID)" class="member-name-link">setId</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;id)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Sets value for ID</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setQuestionText(java.lang.String)" class="member-name-link">setQuestionText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;questionText)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setQuestionText(java.lang.String)" class="member-name-link">setQuestionText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;questionText)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Sets value for question text</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setQuiz(ru.zgz.star.backend.models.Quiz)" class="member-name-link">setQuiz</a><wbr>(<a href="Quiz.html" title="class in ru.zgz.star.backend.models">Quiz</a>&nbsp;quiz)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setQuizHistories(java.util.List)" class="member-name-link">setQuizHistories</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizHistory.html" title="class in ru.zgz.star.backend.models">QuizHistory</a>&gt;&nbsp;quizHistories)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setQuiz(java.util.UUID)" class="member-name-link">setQuiz</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;quiz)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setVariants(java.util.List)" class="member-name-link">setVariants</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizVariant.html" title="class in ru.zgz.star.backend.models">QuizVariant</a>&gt;&nbsp;variants)</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setTotalAnswersAmount(java.lang.Integer)" class="member-name-link">setTotalAnswersAmount</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&nbsp;totalAnswersAmount)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Sets value for variants of question</div>
+<div class="block">Updates last total answer amount.</div>
 </div>
 </div>
 </div>
@@ -176,10 +180,10 @@ loadScripts(document, 'script');</script>
 </section>
 </li>
 <li>
-<section class="detail" id="&lt;init&gt;(java.lang.String,java.util.List)">
+<section class="detail" id="&lt;init&gt;(java.lang.String,java.util.UUID)">
 <h3>Question</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">Question</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;questionText,
- <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizVariant.html" title="class in ru.zgz.star.backend.models">QuizVariant</a>&gt;&nbsp;variants)</span></div>
+ <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;quiz)</span></div>
 </section>
 </li>
 </ul>
@@ -235,49 +239,63 @@ loadScripts(document, 'script');</script>
 </section>
 </li>
 <li>
-<section class="detail" id="setVariants(java.util.List)">
-<h3>setVariants</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></span>&nbsp;<span class="element-name">setVariants</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizVariant.html" title="class in ru.zgz.star.backend.models">QuizVariant</a>&gt;&nbsp;variants)</span></div>
-<div class="block">Sets value for variants of question</div>
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>variants</code> - New set of variants</dd>
-</dl>
-</section>
-</li>
-<li>
-<section class="detail" id="getVariants()">
-<h3>getVariants</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizVariant.html" title="class in ru.zgz.star.backend.models">QuizVariant</a>&gt;</span>&nbsp;<span class="element-name">getVariants</span>()</div>
-<div class="block">Returns variants of question</div>
-<dl class="notes">
-<dt>Returns:</dt>
-<dd>variants of question</dd>
-</dl>
-</section>
-</li>
-<li>
 <section class="detail" id="getQuiz()">
 <h3>getQuiz</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Quiz.html" title="class in ru.zgz.star.backend.models">Quiz</a></span>&nbsp;<span class="element-name">getQuiz</span>()</div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a></span>&nbsp;<span class="element-name">getQuiz</span>()</div>
 </section>
 </li>
 <li>
-<section class="detail" id="setQuiz(ru.zgz.star.backend.models.Quiz)">
+<section class="detail" id="setQuiz(java.util.UUID)">
 <h3>setQuiz</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></span>&nbsp;<span class="element-name">setQuiz</span><wbr><span class="parameters">(<a href="Quiz.html" title="class in ru.zgz.star.backend.models">Quiz</a>&nbsp;quiz)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></span>&nbsp;<span class="element-name">setQuiz</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;quiz)</span></div>
 </section>
 </li>
 <li>
-<section class="detail" id="getQuizHistories()">
-<h3>getQuizHistories</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizHistory.html" title="class in ru.zgz.star.backend.models">QuizHistory</a>&gt;</span>&nbsp;<span class="element-name">getQuizHistories</span>()</div>
+<section class="detail" id="setCorrectAnswersAmount(java.lang.Integer)">
+<h3>setCorrectAnswersAmount</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></span>&nbsp;<span class="element-name">setCorrectAnswersAmount</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&nbsp;correctAnswersAmount)</span></div>
+<div class="block">Updates last correct answer amount.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>correctAnswersAmount</code> - New correct answer amount</dd>
+<dt>Returns:</dt>
+<dd>object with new correct answer amount</dd>
+</dl>
 </section>
 </li>
 <li>
-<section class="detail" id="setQuizHistories(java.util.List)">
-<h3>setQuizHistories</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></span>&nbsp;<span class="element-name">setQuizHistories</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="QuizHistory.html" title="class in ru.zgz.star.backend.models">QuizHistory</a>&gt;&nbsp;quizHistories)</span></div>
+<section class="detail" id="getCorrectAnswersAmount()">
+<h3>getCorrectAnswersAmount</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a></span>&nbsp;<span class="element-name">getCorrectAnswersAmount</span>()</div>
+<div class="block">Returns correct answers amount.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>associated correct answers amount</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="setTotalAnswersAmount(java.lang.Integer)">
+<h3>setTotalAnswersAmount</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Question.html" title="class in ru.zgz.star.backend.models">Question</a></span>&nbsp;<span class="element-name">setTotalAnswersAmount</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&nbsp;totalAnswersAmount)</span></div>
+<div class="block">Updates last total answer amount.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>totalAnswersAmount</code> - New total answer amount</dd>
+<dt>Returns:</dt>
+<dd>object with new total answer amount</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getTotalAnswersAmount()">
+<h3>getTotalAnswersAmount</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a></span>&nbsp;<span class="element-name">getTotalAnswersAmount</span>()</div>
+<div class="block">Returns total answers amount.</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>associated total answers amount</dd>
+</dl>
 </section>
 </li>
 </ul>
